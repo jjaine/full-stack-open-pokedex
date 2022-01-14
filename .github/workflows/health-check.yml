@@ -6,7 +6,7 @@ on:
       - master
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '5 18 * * 1,5' # “At 18:05 on Monday and Friday.”
+    - cron:  '30 * * * 5' #  “At minute 30 on Friday.”
 
 jobs:
   health_check:
